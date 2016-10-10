@@ -13,13 +13,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.example.JokeClass;
+
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
-import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
+
 
 /**
  * Created by lavanya on 10/9/16.
@@ -27,8 +26,7 @@ import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
 public class MainFreeFragment extends Fragment {
 	private static final String TAG = MainFreeFragment.class.getSimpleName();
 	private ProgressBar mProgressBar;
-
-	//PublisherInterstitialAd mPublisherInterstitialAd = null;
+	
 	@Nullable
 	@Override
 	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
