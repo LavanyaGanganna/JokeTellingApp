@@ -113,7 +113,7 @@ public class FetchJokeTask extends AsyncTask<Void, Void, String> {
 
 	private void startjokeActivity(String result) {
 		Intent intent = new Intent(context, com.example.android.jokedisplaylib.JokeDisplayActivity.class);
-		intent.putExtra("jokes", result);
+		intent.putExtra(context.getString(R.string.jokestr), result);
 		context.startActivity(intent);
 	}
 
