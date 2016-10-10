@@ -26,7 +26,7 @@ import com.google.android.gms.ads.InterstitialAd;
 public class MainFreeFragment extends Fragment {
 	private static final String TAG = MainFreeFragment.class.getSimpleName();
 	private ProgressBar mProgressBar;
-	
+
 	@Nullable
 	@Override
 	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
